@@ -1,0 +1,106 @@
+<head>
+    <title>GamerFeed APP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#2e363e">
+    <meta name="theme-color" content="#2e363e">
+    <meta name="apple-mobile-web-app-title" content="GamerFeed">
+    <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png">
+    <link href="splashscreens/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/iphonexr_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/iphonexsmax_splash.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/ipadpro3_splash.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <link href="splashscreens/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+    <meta name="description" content="The best and fastest way to get news from games!">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="jquery.rss.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="linePreloader"></div>
+        <div class="menu-up"><span>GamerFeed</span></div>
+        <div class="home">
+            <div class="conf">
+                <div class="hellotext">
+                    <img src="images/banner.svg" class="banner">
+                    <h1>First add games!</h1>
+                    <p>Add game feed by clicking the add button below.</p>
+                    <hr width="20%">
+                    <p>The best and fastest way to get news from games!</p>
+                </div>
+                <div class="art"></div>
+            </div>
+            <div class="home-games">
+                <div class="box" id="CS:GO">
+                    <h1>CS:GO</h1>
+                    <p>RSS Feed</p>
+                </div>
+                <div class="box" id="Fortnite">
+                    <h1>Fortnite</h1>
+                    <p>RSS Feed, Daily Shop</p>
+                </div>
+                <div class="box" id="Minecraft">
+                    <h1>Minecraft</h1>
+                    <p>RSS Feed, Skin Checker</p>
+                </div>
+                <div class="box" id="LOL">
+                    <h1>LOL</h1>
+                    <p>RSS Feed</p>
+                </div>
+                <div class="box" id="Overwatch">
+                    <h1>Overwatch</h1>
+                    <p>RSS Feed</p>
+                </div>
+                <div class="box" id="R6S">
+                    <h1>R6S</h1>
+                    <p>RSS Feed</p>
+                </div>
+                <div class="box" id="Dota 2">
+                    <h1>Dota 2</h1>
+                    <p>RSS Feed</p>
+                </div>
+                <div class="box" id="TF2">
+                    <h1>TF2</h1>
+                    <p>RSS Feed</p>
+                </div>
+                <div class="box" id="Roblox">
+                    <h1>Roblox</h1>
+                    <p>RSS Feed</p>
+                </div>
+                <div class="box" id="WOT">
+                    <h1>WOT</h1>
+                    <p>RSS Feed</p>
+                </div>
+                <hr>
+                <p class="powered">Powered by Leszekk.eu</p>
+            </div>
+            <div class="page">
+                <svg class="back-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#e8eef2" d="M11.29,12l3.54-3.54a1,1,0,0,0,0-1.41,1,1,0,0,0-1.42,0L9.17,11.29a1,1,0,0,0,0,1.42L13.41,17a1,1,0,0,0,.71.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41Z"/></svg>
+                <h1 class="page-h1">
+                    <span class="page-h1-name">Page Title</span>
+                    <svg class="follow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#e8eef2" d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"/></svg>
+                </h1>
+                <p class="page-p"></p>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu-option">
+                <svg class="menu-option-img home-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#fff" d="M20,8h0L14,2.74a3,3,0,0,0-4,0L4,8a3,3,0,0,0-1,2.26V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V10.25A3,3,0,0,0,20,8ZM14,20H10V15a1,1,0,0,1,1-1h2a1,1,0,0,1,1,1Zm5-1a1,1,0,0,1-1,1H16V15a3,3,0,0,0-3-3H11a3,3,0,0,0-3,3v5H6a1,1,0,0,1-1-1V10.25a1,1,0,0,1,.34-.75l6-5.25a1,1,0,0,1,1.32,0l6,5.25a1,1,0,0,1,.34.75Z"/></svg>
+            </div>
+            <div class="menu-option">
+                <svg class="menu-option-img add-btn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="#fff" d="M9,13h2v2a1,1,0,0,0,2,0V13h2a1,1,0,0,0,0-2H13V9a1,1,0,0,0-2,0v2H9a1,1,0,0,0,0,2ZM21,2H3A1,1,0,0,0,2,3V21a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V3A1,1,0,0,0,21,2ZM20,20H4V4H20Z"/></svg>
+            </div>
+        </div>
+    </div>
+</body>
